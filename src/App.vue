@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <!-- Data binding example -->
+    <!-- can also be written as v-bind:alt -->
+    <img id="mainImg" :alt="imageAlt" src="./assets/logo.png">
+    <!-- Reactive Data -->
+    {{ reactive }}
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -12,7 +16,13 @@ export default {
   name: 'App',
   components: {
     HelloWorld
-  }
+  },
+  data: () => {
+    return {
+      reactive: 'Reactive data example. This text will respond to change.',
+      imageAlt: 'Logo'
+    }
+  },
 }
 </script>
 
@@ -24,5 +34,9 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#mainImg {
+  width: 250px;
 }
 </style>
