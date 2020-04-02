@@ -5,7 +5,7 @@
     <img id="mainImg" :alt="imageAlt" src="./assets/logo.png">
     <!-- Reactive Data -->
     {{ reactive }}
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HelloWorld msg="Welcome to my Vue.js test app"/>
   </div>
 </template>
 
