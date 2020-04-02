@@ -87,6 +87,7 @@
     <ul>
       <li><button>Reactive data</button></li>
       <li><button>Data binding</button></li>
+      <li><button>Loops</button></li>
       <li><button>Next example...</button></li>
     </ul>
   </div>
