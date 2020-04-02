@@ -3,6 +3,7 @@
     <HelloWorld msg="Welcome to my Vue.js test app" />
     <DataBinding />
     <ReactiveData />
+    <Loops />
     <Example />
   </div>
 </template>
@@ -11,6 +12,7 @@
 import HelloWorld from "./components/HelloWorld.vue";
 import DataBinding from "./components/DataBinding.vue";
 import ReactiveData from "./components/ReactiveData.vue";
+import Loops from "./components/Loops.vue";
 import Example from "./components/Example.vue";
 
 export default {
@@ -19,6 +21,7 @@ export default {
     HelloWorld,
     DataBinding,
     ReactiveData,
+    Loops,
     Example
   }
 };
@@ -32,10 +35,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-}
-
-#mainImg {
-  width: 250px;
 }
 
 pre {

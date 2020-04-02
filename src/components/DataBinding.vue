@@ -1,7 +1,10 @@
 <template>
   <div class="data-binding">
     <h1>Data binding</h1>
-    <img id="mainImg" :alt="imageAlt" src="../assets/logo.png" />
+    <a href="https://vuejs.org/v2/guide/syntax.html#Attributes">Docs</a>
+    <br/>
+    <br/>
+    <img :alt="imageAlt" src="../assets/logo.png" />
     <p>Code example:</p>
     <pre>
       <code>
@@ -18,7 +21,7 @@ data: () => {
   };
 }
       </code>
-    </pre>    
+    </pre> 
   </div>
 </template>
 
@@ -37,5 +40,8 @@ export default {
 <style scoped>
 .data-binding {
   padding-bottom: 16px;
+}
+img {
+  width: 250px;
 }
 </style>

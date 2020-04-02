@@ -1,6 +1,12 @@
 <template>
   <div class="reactive-data">
     <h1>Reactive data</h1>
+    <a href="https://vuejs.org/v2/guide/reactivity.html">Docs</a>
+    <br/>
+    <br/>
+    <img src="../assets/data.png" />    
+    <br/>
+    <br/>
     {{ reactive }}
     <p>Code example:</p>
     <pre>
@@ -34,4 +40,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+img {
+width: 450px;
+}
 </style>

@@ -1,7 +1,7 @@
 <template>
-  <div class="example">
-    <h1>Example</h1>
-    <a href="#">Docs</a>
+  <div class="loops">
+    <h1>Looping through data</h1>
+    <a href="https://vuejs.org/v2/guide/list.html">Docs</a>
     <br/>
     <br/>
     <!-- code -->
@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'Example',
+  name: 'Loops',
   data: () => {
     return {
       variable: 'value'
@@ -27,5 +27,5 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.example {}
+.loops {}
 </style>
