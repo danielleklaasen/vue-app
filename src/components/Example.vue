@@ -11,6 +11,16 @@
 &lt; Escape characters &gt;
       </code>
     </pre>
+    <br/>
+    <pre>
+      <code>
+data: () => {
+  return {
+      variable: "value"
+  };
+}
+      </code>
+    </pre>
   </div>
 </template>
 
