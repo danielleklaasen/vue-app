@@ -5,6 +5,7 @@
     <ReactiveData />
     <Loops />
     <Conditional />
+    <Input />
     <Example />
   </div>
 </template>
@@ -15,6 +16,7 @@ import DataBinding from "./components/DataBinding.vue";
 import ReactiveData from "./components/ReactiveData.vue";
 import Loops from "./components/Loops.vue";
 import Conditional from "./components/Conditional.vue";
+import Input from "./components/Input.vue";
 import Example from "./components/Example.vue";
 
 export default {
@@ -25,6 +27,7 @@ export default {
     ReactiveData,
     Loops,
     Conditional,
+    Input,
     Example
   }
 };
