@@ -1,22 +1,41 @@
 <template>
   <div class="data-binding">
-    <!-- Data binding example -->
-    <!-- can also be written as v-bind:alt -->
-    <img id="mainImg" alt="imageAlt" src="../assets/logo.png" />
+    <h1>Data binding</h1>
+    <img id="mainImg" :alt="imageAlt" src="../assets/logo.png" />
+    <p>Code example:</p>
+    <pre>
+      <code>
+&lt;!-- can also be written as v-bind:alt --&gt;
+&lt;img id="mainImg" :alt="imageAlt" src="../assets/logo.png" /&gt;
+      </code>
+    </pre>
+    <br/>
+    <pre>
+      <code>
+data: () => {
+  return {
+      imageAlt: "Logo"
+  };
+}
+      </code>
+    </pre>    
   </div>
 </template>
 
 <script>
 export default {
-  name: 'DataBinding',
+  name: "DataBinding",
   data: () => {
     return {
-      imageAlt: 'Logo'
-    }
-  },
-}
+      imageAlt: "Logo"
+    };
+  }
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.data-binding {
+  padding-bottom: 16px;
+}
 </style>
