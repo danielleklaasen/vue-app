@@ -86,8 +86,9 @@
     </ul>
     <h3>Code example</h3>
     <ul>
-      <li><a href="#" target="_blank" rel="noopener">Reactive data</a></li>
-      <li><a href="#" target="_blank" rel="noopener">Data binding</a></li>
+      <li><button>Reactive data</button></li>
+      <li><button>Data binding</button></li>
+      <li><button>Next example...</button></li>
     </ul>
   </div>
 </template>
