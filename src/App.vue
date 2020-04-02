@@ -1,27 +1,22 @@
 <template>
   <div id="app">
-    <!-- Data binding example -->
-    <!-- can also be written as v-bind:alt -->
-    <img id="mainImg" :alt="imageAlt" src="./assets/logo.png">
-    <!-- Reactive Data -->
-    {{ reactive }}
     <HelloWorld msg="Welcome to my Vue.js test app"/>
+    <DataBinding/>
+    <ReactiveData/>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import DataBinding from './components/DataBinding.vue'
+import ReactiveData from './components/ReactiveData.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  },
-  data: () => {
-    return {
-      reactive: 'Reactive data example. This text will respond to change.',
-      imageAlt: 'Logo'
-    }
+    HelloWorld,
+    DataBinding,
+    ReactiveData,
   },
 }
 </script>
