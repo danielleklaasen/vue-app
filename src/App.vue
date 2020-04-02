@@ -1,24 +1,27 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to my Vue.js test app"/>
-    <DataBinding/>
-    <ReactiveData/>
+    <HelloWorld msg="Welcome to my Vue.js test app" />
+    <DataBinding />
+    <ReactiveData />
+    <Example />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import DataBinding from './components/DataBinding.vue'
-import ReactiveData from './components/ReactiveData.vue'
+import HelloWorld from "./components/HelloWorld.vue";
+import DataBinding from "./components/DataBinding.vue";
+import ReactiveData from "./components/ReactiveData.vue";
+import Example from "./components/Example.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     HelloWorld,
     DataBinding,
     ReactiveData,
-  },
-}
+    Example
+  }
+};
 </script>
 
 <style>
@@ -33,5 +36,20 @@ export default {
 
 #mainImg {
   width: 250px;
+}
+
+pre {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 8px 24px;
+  background-color: #f2f2f2;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+code {
+text-align: left;
 }
 </style>
