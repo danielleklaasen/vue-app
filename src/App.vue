@@ -4,6 +4,7 @@
     <DataBinding />
     <ReactiveData />
     <Loops />
+    <Conditional />
     <Example />
   </div>
 </template>
@@ -13,6 +14,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 import DataBinding from "./components/DataBinding.vue";
 import ReactiveData from "./components/ReactiveData.vue";
 import Loops from "./components/Loops.vue";
+import Conditional from "./components/Conditional.vue";
 import Example from "./components/Example.vue";
 
 export default {
@@ -22,6 +24,7 @@ export default {
     DataBinding,
     ReactiveData,
     Loops,
+    Conditional,
     Example
   }
 };
