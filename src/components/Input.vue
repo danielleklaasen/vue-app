@@ -1,14 +1,16 @@
 <template>
   <div class="input">
     <h1>User input</h1>
-    <a href="#">Docs</a>
+    <a href="https://vuejs.org/v2/guide/forms.html">Docs</a>
     <br/>
     <br/>
-    <!-- code -->
+    <input v-model="message" placeholder="edit me">
+    <p>Message is: {{ message }}</p>
     <p>Code example:</p>
     <pre>
       <code>
-&lt; Escape characters &gt;
+&lt;input v-model="message" placeholder="edit me"&gt;
+&lt;p>Message is: {{ message }}&lt;/p&gt;
       </code>
     </pre>
     <br/>
@@ -16,7 +18,7 @@
       <code>
 data: () => {
   return {
-      variable: "value"
+      message: ""
   };
 }
       </code>
@@ -29,7 +31,7 @@ export default {
   name: 'Input',
   data: () => {
     return {
-      variable: 'value'
+      message: ''
     }
   },
 }
