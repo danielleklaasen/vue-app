@@ -42,7 +42,12 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
-
+a {
+  color: #42b983;
+}
+h3 {
+  margin: 40px 0 0;
+}
 pre {
   max-width: 600px;
   margin: 0 auto;
@@ -53,8 +58,16 @@ pre {
   align-items: center;
   justify-content: flex-start;
 }
-
 code {
-text-align: left;
+  text-align: left;
+}
+button {
+  background-color: #2c3e50;
+  border: 1px solid #2c3e50;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 16px;
+  color: white;
+  font-size: 0.8em;
 }
 </style>
