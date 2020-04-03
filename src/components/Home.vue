@@ -95,7 +95,7 @@
     </ul>
     <h3>Templates</h3>
     <ul>
-      <li><button>Example</button></li>
+      <li><button>Interpolation</button></li>
     </ul> 
     <h3>Chapter</h3>
     <ul>

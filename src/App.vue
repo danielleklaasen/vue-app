@@ -8,6 +8,7 @@
     <Input />
     <Lifecycle />
     <Events />
+    <Interpolation />
     <Example />
   </div>
 </template>
@@ -21,6 +22,7 @@ import Conditional from "./components/Conditional.vue";
 import Input from "./components/Input.vue";
 import Lifecycle from "./components/Lifecycle.vue";
 import Events from "./components/Events.vue";
+import Interpolation from "./components/Interpolation.vue";
 import Example from "./components/Example.vue";
 
 export default {
@@ -34,6 +36,7 @@ export default {
     Input,
     Lifecycle,
     Events,
+    Interpolation,
     Example
   }
 };
