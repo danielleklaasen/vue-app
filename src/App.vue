@@ -6,6 +6,7 @@
     <Loops />
     <Conditional />
     <Input />
+    <Lifecycle />
     <Example />
   </div>
 </template>
@@ -17,6 +18,7 @@ import ReactiveData from "./components/ReactiveData.vue";
 import Loops from "./components/Loops.vue";
 import Conditional from "./components/Conditional.vue";
 import Input from "./components/Input.vue";
+import Lifecycle from "./components/Lifecycle.vue";
 import Example from "./components/Example.vue";
 
 export default {
@@ -28,6 +30,7 @@ export default {
     Loops,
     Conditional,
     Input,
+    Lifecycle,
     Example
   }
 };
