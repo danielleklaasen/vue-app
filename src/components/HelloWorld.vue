@@ -91,6 +91,7 @@
       <li><button>Conditional data</button></li>
       <li><button>Input</button></li>
       <li><button>Lifecyle hooks</button></li>
+      <li><button>Events and methods</button></li>
       <li><button>Next example...</button></li>
     </ul>
   </div>

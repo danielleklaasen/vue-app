@@ -7,6 +7,7 @@
     <Conditional />
     <Input />
     <Lifecycle />
+    <Events />
     <Example />
   </div>
 </template>
@@ -19,6 +20,7 @@ import Loops from "./components/Loops.vue";
 import Conditional from "./components/Conditional.vue";
 import Input from "./components/Input.vue";
 import Lifecycle from "./components/Lifecycle.vue";
+import Events from "./components/Events.vue";
 import Example from "./components/Example.vue";
 
 export default {
@@ -31,6 +33,7 @@ export default {
     Conditional,
     Input,
     Lifecycle,
+    Events,
     Example
   }
 };
