@@ -83,7 +83,7 @@
         >
       </li>
     </ul>
-    <h3>Code examples</h3>
+    <h3>Vue.js overview</h3>
     <ul>
       <li><button>Reactive data</button></li>
       <li><button>Data binding</button></li>
@@ -92,14 +92,21 @@
       <li><button>Input</button></li>
       <li><button>Lifecyle hooks</button></li>
       <li><button>Events and methods</button></li>
-      <li><button>Next example...</button></li>
     </ul>
+    <h3>Templates</h3>
+    <ul>
+      <li><button>Example</button></li>
+    </ul> 
+    <h3>Chapter</h3>
+    <ul>
+      <li><button>Example</button></li>
+    </ul>        
   </div>
 </template>
 
 <script>
 export default {
-  name: "HelloWorld",
+  name: "Home",
   props: {
     msg: String
   },

@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to my Vue.js test app" />
+    <Home msg="Welcome to my Vue.js test app" />
     <DataBinding />
     <ReactiveData />
     <Loops />
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Home from "./components/Home.vue";
 import DataBinding from "./components/DataBinding.vue";
 import ReactiveData from "./components/ReactiveData.vue";
 import Loops from "./components/Loops.vue";
@@ -26,7 +26,7 @@ import Example from "./components/Example.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
+    Home,
     DataBinding,
     ReactiveData,
     Loops,
