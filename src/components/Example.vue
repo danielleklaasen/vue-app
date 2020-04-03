@@ -8,7 +8,15 @@
     <p>Code example:</p>
     <pre>
       <code>
-&lt; Escape characters &gt;
+Escaped characters:  
+<!-- < -->    
+&lt; 
+<!-- > -->
+&gt;
+<!-- { -->
+&#123; 
+<!-- } -->
+&#125;
       </code>
     </pre>
     <br/>
