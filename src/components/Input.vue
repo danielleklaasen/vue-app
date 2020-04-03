@@ -10,7 +10,7 @@
     <pre>
       <code>
 &lt;input v-model="message" placeholder="edit me"&gt;
-&lt;p>Message is: {{ message }}&lt;/p&gt;
+&lt;p>Message is: &#123; &#123; message &#125; &#125;&lt;/p&gt;
       </code>
     </pre>
     <br/>

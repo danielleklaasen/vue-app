@@ -70,4 +70,10 @@ button {
   color: white;
   font-size: 0.8em;
 }
+input {
+  padding: 16px;
+  border-radius: 4px;
+  border: 1px solid darkgrey;
+  font-size: 0.8em;
+}
 </style>
