@@ -1,7 +1,7 @@
 <template>
-  <div class="reactive-data">
+  <div id="reactive-data">
     <h1>Reactive data</h1>
-    <a href="https://vuejs.org/v2/guide/reactivity.html">Docs</a>
+    <a href="https://vuejs.org/v2/guide/reactivity.html" target="_blank">Docs</a>
     <br/>
     <br/>
     <img src="../assets/data.png" />    

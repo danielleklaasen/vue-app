@@ -1,7 +1,7 @@
 <template>
-  <div class="example">
+  <div id="example">
     <h1>Example</h1>
-    <a href="#">Docs</a>
+    <a href="#" target="_blank">Docs</a>
     <br/>
     <br/>
     <!-- code -->

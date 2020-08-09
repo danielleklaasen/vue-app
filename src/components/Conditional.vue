@@ -1,7 +1,7 @@
 <template>
-  <div class="conditional">
+  <div id="conditional">
     <h1>Conditional data</h1>
-    <a href="https://vuejs.org/v2/guide/conditional.html">Docs</a>
+    <a href="https://vuejs.org/v2/guide/conditional.html" target="_blank">Docs</a>
     <br/>
     <br/>
     <h2 v-if="awesome">Vue is awesome!</h2>

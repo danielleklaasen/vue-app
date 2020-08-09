@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Home msg="Welcome to my Vue.js test app" />
+    <Home msg="Vue.js tryout" />
     <DataBinding />
     <ReactiveData />
     <Loops />
@@ -10,6 +10,7 @@
     <Events />
     <Interpolation />
     <Example />
+    <Resources/>
   </div>
 </template>
 
@@ -17,6 +18,7 @@
 import Home from "./components/Home.vue";
 import DataBinding from "./components/DataBinding.vue";
 import ReactiveData from "./components/ReactiveData.vue";
+import Resources from "./components/Resources.vue";
 import Loops from "./components/Loops.vue";
 import Conditional from "./components/Conditional.vue";
 import Input from "./components/Input.vue";
@@ -37,7 +39,8 @@ export default {
     Lifecycle,
     Events,
     Interpolation,
-    Example
+    Example,
+    Resources
   }
 };
 </script>

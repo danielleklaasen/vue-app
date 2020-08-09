@@ -1,7 +1,7 @@
 <template>
-  <div class="loops">
+  <div id="loops">
     <h1>Looping through data</h1>
-    <a href="https://vuejs.org/v2/guide/list.html">Docs</a>
+    <a href="https://vuejs.org/v2/guide/list.html" target="_blank">Docs</a>
     <br />
     <br />
       <ul>

@@ -1,7 +1,7 @@
 <template>
-  <div class="interpolation">
+  <div id="interpolation">
     <h1>Interpolation</h1>
-    <a href="https://vuejs.org/v2/guide/syntax.html#Interpolations">Docs</a>
+    <a href="https://vuejs.org/v2/guide/syntax.html#Interpolations" target="_blank">Docs</a>
     <br />
     <br />    
     <p>{{ text }}</p>

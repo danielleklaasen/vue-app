@@ -1,8 +1,8 @@
 <template>
-  <div class="events">
+  <div id="events">
     <h1>Events and methods</h1>
     <a href="https://vuejs.org/v2/guide/events.html#Method-Event-Handlers"
-      >Docs</a
+      target="_blank" >Docs</a
     >
     <br />
     <br />

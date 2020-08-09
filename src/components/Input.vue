@@ -1,7 +1,7 @@
 <template>
-  <div class="input">
+  <div id="input">
     <h1>User input</h1>
-    <a href="https://vuejs.org/v2/guide/forms.html">Docs</a>
+    <a href="https://vuejs.org/v2/guide/forms.html" target="_blank">Docs</a>
     <br/>
     <br/>
     <input v-model="message" placeholder="edit me">

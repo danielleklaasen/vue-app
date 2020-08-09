@@ -1,7 +1,7 @@
 <template>
-  <div class="lifecycle">
+  <div id="lifecycle">
     <h1>Lifecycle hooks</h1>
-    <a href="https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks">Docs</a>
+    <a href="https://vuejs.org/v2/guide/instance.html#Instance-Lifecycle-Hooks" target="_blank">Docs</a>
     <br/>
     <br/>
     <img v-if="kittenSrc" alt="kitten" :src="kittenSrc" />

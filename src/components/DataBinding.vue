@@ -1,7 +1,7 @@
 <template>
-  <div class="data-binding">
+  <div id="data-binding">
     <h1>Data binding</h1>
-    <a href="https://vuejs.org/v2/guide/syntax.html#Attributes">Docs</a>
+    <a href="https://vuejs.org/v2/guide/syntax.html#Attributes" target="_blank">Docs</a>
     <br/>
     <br/>
     <img :alt="imageAlt" src="../assets/kittens.jpg" />
